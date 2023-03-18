@@ -1,0 +1,43 @@
+venv
+
+# Ignore client settings file
+settings
+
+# Ignore stories file except for test_story
+stories
+!stories/sample_story.json
+
+# Ignore stuff that would polute our Git
+/.project
+*.bak
+miniconda3
+runtime
+bin
+*.settings
+__pycache__
+*.log
+cache
+accelerate-disk-cache
+userscripts
+!userscripts/examples
+!userscripts/kaipreset_*.lua
+!userscripts/Readme.*
+!userscripts/api_documentation.*
+softprompts
+models
+!models/models go here.txt
+Uninstall
+flask_session
+accelerate-disk-cache
+.ipynb_checkpoints
+
+# Ignore PyCharm project files.
+.idea
+
+# Ignore compiled Python files.
+*.pyc
+
+# Don't ignore defaults
+!defaults/*
+node_modules
+node_modules

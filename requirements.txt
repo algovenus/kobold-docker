@@ -1,0 +1,23 @@
+transformers==4.24.0
+huggingface_hub==0.12.1
+Flask
+Flask-SocketIO
+requests
+torch >= 1.9, < 1.13
+flask-cloudflared==0.0.10
+flask-ngrok
+eventlet
+dnspython==2.2.1
+lupa==1.10
+markdown
+bleach==4.1.0
+sentencepiece
+protobuf
+accelerate
+flask-session
+marshmallow>=3.13
+apispec-webframeworks
+loguru
+termcolor
+safetensors
+git+https://github.com/VE-FORBRYDERNE/mkultra

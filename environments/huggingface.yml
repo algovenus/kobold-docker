@@ -1,0 +1,34 @@
+name: koboldai
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - colorama
+  - flask-socketio
+  - flask-session
+  - pytorch=1.11.*
+  - python=3.8.*
+  - cudatoolkit=11.1
+  - eventlet
+  - dnspython=2.2.1
+  - markdown
+  - bleach=4.1.0
+  - pip
+  - git=2.35.1
+  - sentencepiece
+  - protobuf
+  - marshmallow>=3.13
+  - apispec-webframeworks
+  - loguru
+  - termcolor
+  - psutil
+  - pip:
+    - flask-cloudflared==0.0.10
+    - flask-ngrok
+    - lupa==1.10
+    - transformers==4.24.0
+    - huggingface_hub==0.12.1
+    - safetensors
+    - accelerate
+    - git+https://github.com/VE-FORBRYDERNE/mkultra
