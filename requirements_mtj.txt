@@ -1,0 +1,24 @@
+torch >= 1.9, < 1.13
+numpy
+tqdm
+requests
+dm-haiku == 0.0.5
+jax == 0.2.21
+jaxlib >= 0.1.69, <= 0.3.7
+transformers == 4.24.0
+huggingface_hub==0.12.1
+progressbar2
+git+https://github.com/VE-FORBRYDERNE/mesh-transformer-jax@ck
+flask
+Flask-SocketIO
+flask-cloudflared==0.0.10
+flask-ngrok
+eventlet
+dnspython==2.2.1
+lupa==1.10
+markdown
+bleach==4.1.0
+flask-session
+marshmallow>=3.13
+apispec-webframeworks
+loguru
